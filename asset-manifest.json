@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mjr_web_design/static/css/main.d57e9e2d.css",
-    "main.js": "/mjr_web_design/static/js/main.dd538000.js",
+    "main.css": "/mjr_web_design/static/css/main.341c5668.css",
+    "main.js": "/mjr_web_design/static/js/main.b8e8e9ae.js",
     "static/media/crescimento.jpg": "/mjr_web_design/static/media/crescimento.86aa345af19b4a8eebeb.jpg",
     "static/media/sql.png": "/mjr_web_design/static/media/sql.85fb38d6773862e917f4.png",
     "static/media/java.png": "/mjr_web_design/static/media/java.cde9c289bedd41396432.png",
@@ -16,11 +16,11 @@
     "static/media/webPort.webp": "/mjr_web_design/static/media/webPort.837e20795d32fd3cbc55.webp",
     "static/media/lojasVirtuais.avif": "/mjr_web_design/static/media/lojasVirtuais.539510391e585c5c74a7.avif",
     "index.html": "/mjr_web_design/index.html",
-    "main.d57e9e2d.css.map": "/mjr_web_design/static/css/main.d57e9e2d.css.map",
-    "main.dd538000.js.map": "/mjr_web_design/static/js/main.dd538000.js.map"
+    "main.341c5668.css.map": "/mjr_web_design/static/css/main.341c5668.css.map",
+    "main.b8e8e9ae.js.map": "/mjr_web_design/static/js/main.b8e8e9ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.d57e9e2d.css",
-    "static/js/main.dd538000.js"
+    "static/css/main.341c5668.css",
+    "static/js/main.b8e8e9ae.js"
   ]
 }
