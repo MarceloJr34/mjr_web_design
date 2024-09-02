@@ -1,6 +1,4 @@
 import React from 'react'
-import Header from "../Components/Header/Header";
-import Rodape from '../Components/Rodape/Rodape';
 import './Styles/SobreNos.css';
 import desenvolvimentoImage from '../Images/crescimento.jpg';
 import { useTypewriter } from 'react-simple-typewriter';
@@ -22,7 +20,6 @@ function SobreNos() {
 
   return (
     <div> 
-      <Header />
       <div className='spacing'>
 
       </div>
@@ -78,7 +75,6 @@ function SobreNos() {
     </div>
       
 
-      <Rodape />
     </div>
   )
 }

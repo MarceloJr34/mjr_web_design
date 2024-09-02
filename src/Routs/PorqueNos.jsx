@@ -1,6 +1,4 @@
 import React from 'react'
-import Header from "../Components/Header/Header";
-import Rodape from '../Components/Rodape/Rodape';
 import imageImpulsione from '../Images/wideWeb.png';
 import imagemEmail from '../Images/email.webp';
 import './Styles/PorqueNos.css';
@@ -28,7 +26,7 @@ function PorqueNos() {
 
   return (
     <div>
-      <Header />
+    
       <div className='impulsione'>
       <div className='corpo'>
         <div className="textoCorpo">
@@ -96,7 +94,7 @@ function PorqueNos() {
 
 
 
-  <Rodape />
+
 </div>
   )
 }
