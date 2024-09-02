@@ -1,0 +1,96 @@
+.body {
+  background: linear-gradient(to right, rgb(29, 30, 61), rgb(29, 30, 61)); 
+  margin: 0;
+  padding-bottom: 20px;
+  margin-right: -15px;
+  margin-left: -25px;
+}
+
+.corpo {
+  margin-top: 84px;
+  display: flex;
+  padding: 0px 80px 2px 60px;
+
+}
+
+ 
+
+.imageBody {
+  width: 500px;
+  z-index: 100;
+  position: relative;
+}
+
+.bodyText {
+  color: rgb(250, 250, 250);
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-size: 28px;
+  line-height: 2.5;
+  animation: slideInLeft 1s ease-in-out forwards;
+}
+
+.lema {
+  color: rgb(195, 226, 226);
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 45px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-15%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+  
+@keyframes slideInRight {
+  0% {
+    transform: translateX(30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 1020px)
+{
+  
+
+  .corpo
+  {
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .bodyText
+  {
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+
+  .imageBody
+  {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .lema
+  {
+    font-size: 14px;
+  }
+  
+}

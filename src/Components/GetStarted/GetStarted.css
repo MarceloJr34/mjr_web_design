@@ -1,0 +1,57 @@
+.iniciar
+{
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+
+.g-wrapper
+{
+    margin-left: -20px;
+    /* margin-right: -40px; */
+
+}
+.inner-container
+{
+    gap: 1.5rem;
+    background: #27315c;
+    padding: 1rem;
+    border: 1px solid  #191e2c;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.inner-container .primaryText
+{
+    color: white;
+    font-weight: 600;
+}
+
+.inner-container .secondaryText
+{
+    color: rgba(255, 255, 255, 0.587);
+}
+
+.inner-container.button
+{
+    background: #5a73d7;
+    border: 2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+   
+}
+
+@media (max-width: 1020px)
+{
+
+    .primaryText
+    {
+        font-size: 18px;
+    }
+
+    .secondaryText
+    {
+        font-size: 14px;
+    }
+}

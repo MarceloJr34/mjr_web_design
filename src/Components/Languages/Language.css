@@ -1,0 +1,68 @@
+.linguagem
+{
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -15px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.language
+{
+    margin-right: 25px;
+}
+
+.imageLanguage
+{
+    width: 110px;
+}
+
+.css
+{
+    width: 180px;
+}
+
+.js
+{
+    width: 140px;
+    margin-top: -7px;
+    margin-left: -5px;
+}
+
+.react
+{
+    margin-top: 13px
+}
+
+.sql
+{
+    width: 210px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1020px)
+{
+    .linguagem
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Espaçamento entre os itens */
+        justify-items: center;
+        align-items: center;
+    }
+
+    .language
+    {
+        width: auto; /* Ajuste conforme necessário */
+    }
+
+    .imageLanguage
+    {
+        width: 120px; /* Ajuste o tamanho das imagens se necessário */
+        margin-top: -10px;
+    }
+}
+
+

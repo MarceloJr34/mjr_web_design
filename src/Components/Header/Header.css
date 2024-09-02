@@ -1,0 +1,182 @@
+/* Transições do Cabeçalho e Elementos Internos */
+.headerTransition {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.headerTransition.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Cabeçalho */
+header {
+  background-color: rgb(29, 30, 48);
+  height: 70px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 8px;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.logoImage {
+  width: 65px;
+}
+
+.logoName {
+  color: #add8e6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-family: Helvetica, Arial;
+  margin-left: 10px;
+  font-size: 18px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  margin-top: 11px;
+}
+
+.logoName.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.logoName:hover {
+  color: #6495ed;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  position: fixed;
+  right: 75px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-right: 36px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding-right: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.button {
+  color: white;
+  background: black;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  transition: all 300ms ease-in;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: linear-gradient(to right, #006ac7, #169bcf);
+  padding-left: 21px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-right: 25px;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Ícone de Menu (Visível em Telas Pequenas) */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  color: white;
+}
+
+/* Responsividade */
+@media (max-width: 1020px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    align-items: center;
+    color: white;
+  }
+
+  .menu {
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(29, 30, 48);
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    transform: translateX(100%); /* Escondido por padrão */
+    right: auto;
+    margin-left: -15px;
+  }
+
+
+  .menu :link
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .menu .button
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+
+  .menu.opened {
+    transform: translateX(0); /* Exibe o menu */
+  }
+
+  .menu.closed {
+    transform: translateX(100%); /* Esconde o menu */
+  }
+
+  .menu a, .menu button {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .logo {
+    padding-left: 20px;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  .logoName
+  {
+    font-size: 16px;
+  }
+
+ .logoImage
+ {
+  width: 50px;
+ }
+
+}

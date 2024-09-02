@@ -1,0 +1,71 @@
+.rodape {
+    background-color: rgb(29, 30, 48);
+    color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: -10px;
+}
+
+.nameRodape {
+    font-size: 21px;
+    opacity: 0.8;
+   
+}
+
+.redesSociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.iconesRedesSociais {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.motivation {
+    color: rgb(75, 155, 128);
+    opacity: 0.8;
+   
+}
+
+.mjr {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.motivation>h3
+{
+    margin-top: -16px;
+}
+
+@media (max-width: 1020px) {
+    .nameRodape, .mjr {
+        font-size: 14px;
+    }
+
+    .iconesRedesSociais {
+        font-size: 21px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .email {
+        font-size: 14px;
+    }
+
+    .fraseMotivacional {
+        font-size: 17px;
+    }
+}
