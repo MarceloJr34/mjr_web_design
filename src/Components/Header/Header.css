@@ -129,7 +129,7 @@ header {
     transform: translateX(100%); /* Escondido por padrão */
     right: auto;
     margin-left: -15px;
-    padding-bottom: 30%;
+   
   }
 
 
@@ -146,7 +146,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 185px;
   }
 
   .menu.opened {
