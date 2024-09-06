@@ -150,6 +150,9 @@ header {
 
   .menu.opened {
     transform: translateX(0); /* Exibe o menu */
+     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .menu.closed {
